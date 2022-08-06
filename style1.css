@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	
+}
+
+/*carrusel----------------------------------------------------------------------*/
+.carrusel{
+	width: 88%;
+	max-width: 120em;
+	background-color: white;
+	padding: 0px;
+	background: #FAEFDE;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    overflow: hidden;
+    z-index: -5;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 6%;
+}
+
+.carrusel .grande{
+	width: 150%;
+	align-items: center;
+	background-color: white;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	transition-duration: 2s;
+    transition-property: all;
+    transform: translateX(0%);
+
+}
+
+.carrusel .img{
+	width: 50%;
+	min-height: 10vh;
+	background-color: white;
+
+}
+
+.carrusel .puntos{
+	width: 100%;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	list-style-type: none;
+}
+
+.carrusel .punto{
+	width: 15px;
+	height: 15px;
+	margin: 1em;
+	background: black;
+    box-shadow: 6px 6px 20px -1px #d5cbbd,
+        -6px -6px 20px -1px #ffffff;
+    border-radius: 50%;
+}
+
+.carrusel .punto.activo{
+	background-color: white;
+	border: 1px solid black;
+}
+
+/*nav-------------------------------------------------------------------------------*/
+
+.page-nav{
+	
+	background-color: white;
+	display: flex;
+}
+
+
+li{
+	background-color: white;
+	color: black;
+	margin-left: 20px;
+	justify-content: flex-start;
+	float: left;
+	margin-top: 40px ;
+	list-style-type: none;
+	transition-duration: 0.5s;
+	align-items: center;
+	transform: translateY(-20px);
+	margin-left: 20px;
+
+}
+
+li:hover{
+	color:lightblue ;
+
+	
+}
+
+.pagehtml{
+	color: black;
+	text-decoration: none;
+	
+}
+
+.pagehtml:hover{
+	color:#e1cbee ;
+
+}
+
+
+
+ul,form{
+	background-color: white;
+	
+}
+
+input{
+	outline: none;
+	margin-left: 300px;
+	margin-top: 20px;
+	float: left;
+}
+
+
+.icon{
+	width: 100px;
+	margin-left: 10px;
+	background-color: inherit;
+	transform: translateY(10px);
+
+}
+
+
+/* aside--------------------------------------------------------------------------*/
+/*
+.aside{
+	
+	margin-left:88% ;
+	margin-bottom: 20%;
+	height: 650px;
+	width: 150px;
+	background-color:white;
+	z-index: 58;
+	position: absolute;
+}
+
+.prueba{
+	background-color: black;
+	height: 650px;
+	width: 150px;
+	clip-path: circle(7% at center center);
+	transition-timing-function:easy-in-out;
+	transition-duration: 3s;
+	transition-property: clip-path;
+}
+
+
+
+.prueba:hover{
+	clip-path: circle(150% at top left);
+	
+	
+}
+*/

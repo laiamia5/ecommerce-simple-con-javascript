@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>electroweb</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&family=Edu+NSW+ACT+Foundation:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Hind+Madurai:wght@300&family=Inconsolata&family=Indie+Flower&family=Lobster&family=Rubik:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<a href="https://www.flaticon.es/iconos-gratis/html" title="html iconos"></a>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+</head>
+<body>
+
+	<div class="page-nav">
+		<img src="fotos/logo1.png" class="icon" data-aos="fade-right">
+		<ul data-aos="fade-right">
+			<li><a href="index.html" class="indexhtml">inicio</a></li>
+			<li>productos</li>
+			<li>info</li>
+			<li>redes sociales</li>
+		</ul>
+		<form>
+			<input type="search" placeholder="Buscar" id="buscador" data-aos="fade-left">
+		</form>
+
+		<button id="carrito_boton" data-aos="fade-left"></button>
+
+		<div id="carrito" class="carrito_none" >
+			<button id="salir" class="carrito_none" >X</button>
+			<table class="carrito_prod">
+				<thead id="carrito_indice">
+				<!--	<tr >
+						<th>producto</th>
+						<th>precio</th>
+						<th>imagen</th>
+					</tr> -->
+				</thead>
+				<tbody >
+					<tr id ='carrito_elementos'>
+							
+					</tr>
+				</tbody>
+			</table>
+			<div class="precioFCarrito"></div>
+		</div>
+	</div>
+
+	<div class="page-content" >
+		
+	</div>
+
+	<div id="nose" >
+	</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="main.js"></script>
+
+
+</body>
+</html>
+
